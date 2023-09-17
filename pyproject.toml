@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "geni-personal-website"
+version = "0.1.0"
+description = ""
+authors = ["geniungamartya <geniungamartya@gmail.com>"]
+readme = "README.md"
+packages = [{include = "geni_personal_website"}]
+
+[tool.poetry.dependencies]
+python = "3.9.17"
+django = "^4.2.5"
+pillow = "^10.0.1"
+django-ckeditor = "^6.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
